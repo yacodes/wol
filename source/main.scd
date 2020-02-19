@@ -7,3 +7,7 @@
     (File.getcwd +/+ "/midi/midi.scd").load;
   });
 )
+
+{SinOsc.ar(440!2)}.play
+
+s.freeAll;
