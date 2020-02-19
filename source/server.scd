@@ -1,0 +1,12 @@
+s.options.outDevice = "Scarlett 2i4 USB";
+// s.options.outDevice = "Built-in Output";
+s.options.sampleRate = 44100;
+s.options.blockSize = 2**9;
+s.options.hardwareBufferSize = 2**9;
+s.options.numBuffers = 2**20;
+s.options.memSize = 2**20;
+s.options.maxNodes = 2**20;
+s.options.numOutputBusChannels = 2;
+s.options.numInputBusChannels = 0;
+s.latency = 0.01;
+s;
